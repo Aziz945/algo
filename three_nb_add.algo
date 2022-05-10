@@ -1,0 +1,40 @@
+ALGORITHM vowels
+VAR
+    c : = CHAR := 0
+    words : INTEGER:= 0
+    characters: INTEGER := 0 
+    vowels : INTEGER := 0
+BEGIN
+    write("write your message.")
+    read (sentence)
+    while (c <> ".") do 
+    read(c)
+    characters := characters+1
+    if(c =" ") then (words ++)
+    read(c)
+    END if
+    if(c = ["a","i","e","o","u"]) then
+    vowles+=1
+    END if
+    END while
+    write("number of words is",words);
+    write("number of character is",characters);
+    write("number of vowels is",vowles)
+
+    
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
